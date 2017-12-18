@@ -1,0 +1,11 @@
+Cubeworld:
+  ✔ @high creer une fonction qui affiche les 6 murs @done (17-12-18 01:14)
+  ☐ @high creer une fonction qui bloque le joueur
+  ☐ @high creer une fonction qui gère les touches curseurs pressées
+  ✔ @high creer une fonction qui reload les textures sur les murs @done (17-12-18 01:14)
+  ☐ voir s'il est possible de charger les textures à la volée en plaçant une dans le rep pendant le running
+  ☐ @low creer une fonction qui récupère les textures sur internet
+ 
+Fonctions prototypes:
+ ☐ creer un panneau de mur à l'infini
+ ☐ creer des murs qui se déplacent 
