@@ -1,11 +1,26 @@
 Cubeworld:
   ✔ @high creer une fonction qui affiche les 6 murs @done (17-12-18 01:14)
-  ☐ @high creer une fonction qui bloque le joueur
-  ☐ @high creer une fonction qui gère les touches curseurs pressées
+  ✔ @high creer une fonction qui bloque le joueur @done (17-12-18 22:00)
+  ✔ @high creer une fonction qui gère les touches curseurs pressées @done (17-12-19 00:28)
   ✔ @high creer une fonction qui reload les textures sur les murs @done (17-12-18 01:14)
-  ☐ voir s'il est possible de charger les textures à la volée en plaçant une dans le rep pendant le running
-  ☐ @low creer une fonction qui récupère les textures sur internet
+  ☐ reculer la vue du joueur de 3 metres en arrière
+  ☐ voir s'il est possible de faire disparaitre l'avatar du joueur (hideobject)
+  ☐ gestion des collisions de zone (quand il y a un mur à l'E,W,S,N)
+  ☐ creer une map sur laquelle on peut se déplacer
+  ☐ creer une minimap du style donjon
+  ☐ creer un menu start / options
+  ☐ creer une interface de jeu interractions
+  ☐ creer une fiche inventaire
  
 Fonctions prototypes:
- ☐ creer un panneau de mur à l'infini
- ☐ creer des murs qui se déplacent 
+ ☐ @low voir s'il est possible de charger les textures à la volée en plaçant une dans le rep pendant le running
+ ☐ @low creer un panneau de mur à l'infini
+ ☐ @low creer des murs qui se déplacent 
+ ☐ @low voir s'il est possible de faire une fonction qui récupère les textures sur internet
+ ☐ @low voir s'il est possible de developper une fonction avec des objets qui tournent
+
+Team:
+  ☐ Trouver un modeur 3d || graphiste
+  ☐ Trouver un type qui fait du son
+
+

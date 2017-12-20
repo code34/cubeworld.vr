@@ -17,11 +17,16 @@
 	*/
 
 	#include "oop.h"
+	#include "dik_macro.hpp"
 
 	call compile preprocessFileLineNumbers "oo_cubeworld.sqf";
+	call compile preprocessFileLineNumbers "oo_keyhandler.sqf";
+
+	player enablesimulation false;
 	setDate [2018, 1, 1, 8, 0];
 
 	private _cubeworld = NEW(OO_CUBEWORLD, nil);
-	
+	private _keyhandler = NEW(OO_KEYHANDLER, nil);
+
 	["createWall", position player] call _cubeworld;
 	["rotateTexture", ["fond1.jpg", "fond2.jpg", "fond3.jpg", "fond4.jpg"]] spawn _cubeworld;
