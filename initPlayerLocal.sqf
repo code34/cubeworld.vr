@@ -16,11 +16,11 @@
 	along with this program.  If not, see <http://www.gnu.org/licenses/>. 
 	*/
 
-	#include "objects/oop.h"
-	#include "config/dik_macro.hpp"
+	#include "objects\oop.h"
+	#include "config\dik_macro.hpp"
 
-	call compile preprocessFileLineNumbers "oo_cubeworld.sqf";
-	call compile preprocessFileLineNumbers "oo_keyhandler.sqf";
+	call compile preprocessFileLineNumbers "objects\oo_cubeworld.sqf";
+	call compile preprocessFileLineNumbers "objects\oo_keyhandler.sqf";
 
 	player enablesimulation false;
 	setDate [2018, 1, 1, 8, 0];
@@ -29,4 +29,4 @@
 	private _keyhandler = NEW(OO_KEYHANDLER, nil);
 
 	["createWall", position player] call _cubeworld;
-	["rotateTexture", ["fond1.jpg", "fond2.jpg", "fond3.jpg", "fond4.jpg"]] spawn _cubeworld;
+	["rotateTexture", ["textures\fond1.jpg", "textures\fond2.jpg", "textures\fond3.jpg", "textures\fond4.jpg"]] spawn _cubeworld;
