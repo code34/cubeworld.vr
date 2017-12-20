@@ -16,8 +16,8 @@
 	along with this program.  If not, see <http://www.gnu.org/licenses/>. 
 	*/
 
-	#include "oop.h"
-	#include "dik_macro.hpp"
+	#include "objects/oop.h"
+	#include "config/dik_macro.hpp"
 
 	call compile preprocessFileLineNumbers "oo_cubeworld.sqf";
 	call compile preprocessFileLineNumbers "oo_keyhandler.sqf";
