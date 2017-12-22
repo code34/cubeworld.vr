@@ -58,13 +58,11 @@
 		};
 
 		PUBLIC FUNCTION("array","rotateTexture") {
-			while { true } do {
-				_jpg = selectRandom _this;
-				{
-					["applyTexture", [_x, _jpg]] call MEMBER("this", nil);
-					sleep 0.1;
-				}foreach [0,1,2,3,4,5,6];
-			};
+			_jpg = selectRandom _this;
+			{
+				["applyTexture", [_x, _jpg]] call MEMBER("this", nil);
+				sleep 0.1;
+			}foreach [0,1,2,3,4,5,6];
 		};
 
 		PUBLIC FUNCTION("array","applyTexture") {

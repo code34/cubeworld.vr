@@ -21,12 +21,11 @@
 
 	call compile preprocessFileLineNumbers "objects\oo_cubeworld.sqf";
 	call compile preprocessFileLineNumbers "objects\oo_keyhandler.sqf";
+	call compile preprocessFileLineNumbers "objects\oo_player.sqf";
 
-	player enablesimulation false;
 	setDate [2018, 1, 1, 8, 0];
-
-	private _cubeworld = NEW(OO_CUBEWORLD, nil);
-	private _keyhandler = NEW(OO_KEYHANDLER, nil);
-
-	["createWall", position player] call _cubeworld;
-	["rotateTexture", ["textures\fond1.jpg", "textures\fond2.jpg", "textures\fond3.jpg", "textures\fond4.jpg"]] spawn _cubeworld;
+	private _position = [(position player) select 0, ((position player) select 1) + 4, 2];
+	private cb_player = NEW(OO_PLAYER, _position);
+	private cb_cubeworld = NEW(OO_CUBEWORLD, nil);
+	private cb_keyhandler = NEW(OO_KEYHANDLER, nil);
+	["createWall", _position] call cb_cubeworld;

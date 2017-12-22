@@ -8,30 +8,38 @@ class EditorData
 	toggles=1;
 	class ItemIDProvider
 	{
-		nextID=2;
+		nextID=7;
 	};
 	class Camera
 	{
-		pos[]={3449.561,15,5298.9053};
-		dir[]={-0.95080823,-0.30337769,0.062696025};
-		up[]={-0.3027215,0.95287144,0.0199614};
-		aside[]={0.065797068,2.8872819e-008,0.99783701};
+		pos[]={3433.4697,15,5303.8818};
+		dir[]={-0.82006752,-0.55365384,0.14481342};
+		up[]={-0.54522264,0.83274525,0.096279152};
+		aside[]={0.17389773,3.0537194e-008,0.98477149};
 	};
 };
 binarizationWanted=0;
 addons[]=
 {
-	"A3_Characters_F"
+	"A3_Characters_F",
+	"A3_Characters_F_Exp_Civil"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=1;
+		items=2;
 		class Item0
 		{
 			className="A3_Characters_F";
 			name="Arma 3 Alpha - Characters and Clothing";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item1
+		{
+			className="A3_Characters_F_Exp";
+			name="Arma 3 Apex - Characters and Clothing";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
@@ -67,7 +75,7 @@ class Mission
 		class Item0
 		{
 			dataType="Group";
-			side="West";
+			side="Civilian";
 			class Entities
 			{
 				items=1;
@@ -76,22 +84,22 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={3420.0132,5.0014391,5307.395};
+						position[]={3421.9016,5.0014391,5308.6157};
 					};
-					side="West";
+					side="Civilian";
 					flags=7;
 					class Attributes
 					{
 						isPlayer=1;
 					};
-					id=1;
-					type="B_helicrew_F";
+					id=6;
+					type="C_man_1";
 				};
 			};
 			class Attributes
 			{
 			};
-			id=0;
+			id=5;
 		};
 	};
 };
