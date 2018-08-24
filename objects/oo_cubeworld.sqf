@@ -74,7 +74,7 @@
 
 		PUBLIC FUNCTION("","deconstructor") { 
 			DEBUG(#, "OO_CUBEWORLD::deconstructor")
-			DELETE VARIABLE("walls");
-			DELETE VARIABLE("this");
+			DELETE_VARIABLE("walls");
+			DELETE_VARIABLE("this");
 		};
 	ENDCLASS;
